@@ -1,0 +1,35 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.recipeBook, .container, .boxHeader {
+    display: flex;
+    flex: 1;
+}
+
+.recipeBook {
+    gap: 50px;
+}
+
+.container {
+    background-color: antiquewhite;
+    flex: 1;
+    flex-direction: column;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+.boxHeader {
+    flex:1;
+}
+
+h3 {
+    flex: 1;
+    padding: 15px;
+}
+
+p {
+    flex: 2;
+    padding: 15px;
+}
+
